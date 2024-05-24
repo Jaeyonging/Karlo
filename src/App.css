@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  letter-spacing: -0.8px;
+}
+
+
+.me-auto {
+  margin-left: 50%;
+}
+
+.HomeDiv {
+  display: flex;
+}
+
+.redColor {
+  color: red;
+  transition: 0.3s color;
+}
+
+.blackColor {
+  color: black;
+  transition: 0.3s color;
+
+}
+
+.rise {
+  color: green;
+}
+
+.fall {
+  color: red;
+}
+
+.coinName:hover,
+.coinPrice:hover,
+.prevPrice:hover,
+.prevalue:hover,
+.kimp:hover,
+.prepercent:hover {
+  cursor: pointer;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.binance {
+  font-size: 13px;
+  color: gray;
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+
+.movieContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieTitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+.movieDescr {
+  font-size: 20px;
+}
+
+.movieDescr>div>span {
+  font-weight: bold;
+}
+
+.movieCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moviePoster {
+  margin-top: 30px;
+}
+
+.movieDescr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.drawContainer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loading {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+}
+
+.loading-bar {
+  width: 0px;
+  height: 8px;
+  background: #DE1B89;
+}
+
+.loading-text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.loading-bar-full {
+  width: 512px;
+  height: 8px;
+  background: #DE1B89;
+  transition: 30s;
+}
+
+.display-none {
+  display: none;
+}
+
+.nav-bank {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
