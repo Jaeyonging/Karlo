@@ -35,14 +35,18 @@ export const Draw = () => {
   return (
     <>
       <div className="drawContainer">
-        Making an Image with prompt
-        <input onChange={(e) => setPrompt(e.target.value)} placeholder="Type anything you want to make an image" />
-        <button onClick={generatePic}>Generate Image</button>
+        <div className="drawTitle">
+          Making an Image with prompt
+        </div>
+        {
+          imageURL ? <img src={imageURL} /> : <img src="../medium.webp" className="aiimage" />
+        }
         <div className="loading">
           <div className={loading ? "loading-bar-full" : "loading-bar"}></div>
           <div className={loading ? "loading-text" : "display-none"}>Loading...</div>
         </div>
-        {imageURL ? <img src={imageURL} alt="Generated" /> : null}
+        <input onChange={(e) => setPrompt(e.target.value)} placeholder="Type anything you want to make an image" />
+        <button className="button" onClick={generatePic}>Generate Image</button>
       </div>
     </>
   );

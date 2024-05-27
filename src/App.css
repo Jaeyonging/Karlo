@@ -3,107 +3,31 @@
   letter-spacing: -0.8px;
 }
 
-
-.me-auto {
-  margin-left: 50%;
-}
-
-.HomeDiv {
+.drawContainer {
+  min-height: 80vh;
   display: flex;
-}
-
-.redColor {
-  color: red;
-  transition: 0.3s color;
-}
-
-.blackColor {
-  color: black;
-  transition: 0.3s color;
-
-}
-
-.rise {
-  color: green;
-}
-
-.fall {
-  color: red;
-}
-
-.coinName:hover,
-.coinPrice:hover,
-.prevPrice:hover,
-.prevalue:hover,
-.kimp:hover,
-.prepercent:hover {
-  cursor: pointer;
-}
-
-.green {
-  color: green;
-}
-
-.red {
-  color: red;
-}
-
-.binance {
-  font-size: 13px;
-  color: gray;
-}
-
-.logo {
-  width: 20px;
-  height: auto;
-  margin-right: 5px;
-}
-
-
-.movieContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.movieTitle {
-  font-size: 30px;
-  text-align: center;
-}
-
-.movieDescr {
-  font-size: 20px;
-}
-
-.movieDescr>div>span {
-  font-weight: bold;
-}
-
-.movieCardContainer {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.moviePoster {
-  margin-top: 30px;
+.drawTitle{
+  font-size: 20px;
+  margin: 15px
 }
 
-.movieDescr {
-  margin-top: 20px;
+.aiimage{
   margin-bottom: 20px;
 }
 
-.drawContainer {
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.button{
+  margin:20px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  min-width: 100px;
 }
+
+
 
 .loading {
   display: flex;
@@ -135,9 +59,31 @@
   display: none;
 }
 
-.nav-bank {
-  width: 90%;
-  margin: auto;
-  display: flex;
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(219, 219, 219);
+  height:20vh;
+}
+
+.footer-content{
+  font-size: 18px;
+  color:black;
+}
+
+.footer-address{
+  display:flex;
   flex-direction: row;
+  justify-content: center;
+
+}
+
+.github{
+  color:red;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
