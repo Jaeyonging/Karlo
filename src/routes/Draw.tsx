@@ -16,6 +16,7 @@ export const Draw = () => {
         prompt: prompt,
         height: 600,
         width: 768,
+        prior_num_inference_steps: 100,
       },
       {
         headers: {
