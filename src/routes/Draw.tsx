@@ -39,7 +39,7 @@ export const Draw = () => {
           Making an Image with prompt
         </div>
         {
-          imageURL ? <img src={imageURL} /> : <img src="../medium.webp" className="aiimage" />
+          imageURL ? <img src={imageURL} className="aiimage" /> : <img src="../medium.webp" className="aiimage" />
         }
         <div className="loading">
           <div className={loading ? "loading-bar-full" : "loading-bar"}></div>
