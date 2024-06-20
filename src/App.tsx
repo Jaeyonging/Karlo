@@ -14,6 +14,7 @@ function App() {
   useEffect(() => {
     ReactGA.set({ page: location.pathname });
     ReactGA.send('pageview');
+    console.log("Google analytics")
   }, [location]);
   return (
     <>
